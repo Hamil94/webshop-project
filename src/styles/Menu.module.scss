@@ -1,0 +1,49 @@
+@import "vars";
+@mixin respondt-to-max-width-640 {
+    @media (max-width: 640px) {
+        @content;
+    }
+}
+
+.Menu {
+    background-color: $--white;
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: 11px;
+    box-shadow: 0 0 18px 4px $--very-light-pink;
+    padding: 20px 20px 0 20px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+
+    @include respondt-to-max-width-640 {
+        display: none;
+    }
+}
+.Menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Menu ul li {
+    text-align: end;
+}
+.Menu ul li:nth-child(1),
+.Menu ul li:nth-child(2) {
+    font-weight: bold;
+}
+.Menu ul li:last-child {
+    padding-top: 20px;
+    border-top: 1px solid $--very-light-pink;
+}
+.Menu ul li:last-child a {
+    color: $--hospital-green;
+    font-size: $--sm;
+}
+.Menu ul li a {
+    color: $--black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
