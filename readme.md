@@ -11,7 +11,7 @@ customer interface for browsing and buying.
 ### Admin
 ![Alt Text](./src/assets/projectImg/admin.png)
 ### Home 
-![Alt Text](./src/assets/projectImg/home.png)
+![Alt Text](./src/assets/projectImg/UserAcount.png)
 
 ## Features
 
