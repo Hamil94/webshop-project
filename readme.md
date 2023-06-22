@@ -6,6 +6,10 @@ for sale and for potential buyers to browse and purchase items of interest. The
 application includes both an admin dashboard for managing products and a
 customer interface for browsing and buying.
 
+## Images
+
+![Alt Text](./src/assets/projectImg/admin.png)
+
 ## Features
 
 -   User registration and login: Users can create an account or log in using their
