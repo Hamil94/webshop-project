@@ -14,6 +14,8 @@ customer interface for browsing and buying.
 ![Alt Text](./src/assets/projectImg/home.png)
 ### Login
 ![Alt Text](./src/assets/projectImg/login.png)
+### Mobile 
+![Alt Text](./src/assets/projectImg/mobil.png)
 
 
 ## Features
