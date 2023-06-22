@@ -8,7 +8,13 @@ customer interface for browsing and buying.
 
 ## Images
 
+### Admin
 ![Alt Text](./src/assets/projectImg/admin.png)
+### Home 
+![Alt Text](./src/assets/projectImg/home.png)
+### Login
+![Alt Text](./src/assets/projectImg/login.png)
+
 
 ## Features
 
