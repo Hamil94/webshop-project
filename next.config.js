@@ -6,6 +6,11 @@ const nextConfig = {
     reactStrictMode: true,
     images: {
         domains: [
+            "www.go.tw",
+            "m.media-amazon.com",
+            "products.com",
+            "prophotos.ru",
+            "i.imgur.com",
             "tailwind.com",
             "images.unsplash.com",
             "picsum.photos",

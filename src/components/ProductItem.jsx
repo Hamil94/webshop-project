@@ -17,7 +17,7 @@ function ProductItem({ product }) {
         toggleProductDetail();
     };
 
-    if (!product.images || !product.images[0]) {
+    if (!product.images || !product.images[0].startsWith("http")) {
         return null;
     }
 
